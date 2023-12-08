@@ -1,0 +1,119 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_owner_listings",
+  "info": {
+    "singularName": "home-owner-listing",
+    "pluralName": "home-owner-listings",
+    "displayName": "home owner listing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Explanation": {
+      "type": "text",
+      "required": true,
+      "minLength": 5
+    },
+    "Explanation2": {
+      "type": "text",
+      "minLength": 10
+    },
+    "Explanation3": {
+      "type": "text",
+      "required": true,
+      "minLength": 10
+    },
+    "ExplanationTitle": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "Title3": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "Description3": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 10
+    },
+    "LegalDocuments": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Location": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "TypeOfProperty": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "Size": {
+      "type": "string",
+      "required": true
+    },
+    "HMOreadiness": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 10
+    },
+    "propertyOwner": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "propertyOwnerId": {
+      "type": "string",
+      "required": true,
+      "minLength": 5
+    },
+    "price": {
+      "type": "biginteger",
+      "required": true,
+      "min": "2"
+    }
+  }
+}

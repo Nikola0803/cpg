@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_provider_subscriptions",
+  "info": {
+    "singularName": "service-provider-subscription",
+    "pluralName": "service-provider-subscriptions",
+    "displayName": "service provider subscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "details": {
+      "type": "json"
+    },
+    "subId": {
+      "type": "string"
+    }
+  }
+}

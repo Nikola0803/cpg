@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "draft_users",
+  "info": {
+    "singularName": "draft-user",
+    "pluralName": "draft-users",
+    "displayName": "draftUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstLastName": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postal": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "selectedLocations": {
+      "type": "json"
+    },
+    "selectUser": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

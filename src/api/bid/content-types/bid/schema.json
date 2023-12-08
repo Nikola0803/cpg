@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bids",
+  "info": {
+    "singularName": "bid",
+    "pluralName": "bids",
+    "displayName": "Bids",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bidPrice": {
+      "type": "biginteger",
+      "required": true
+    },
+    "propertyId": {
+      "type": "string",
+      "required": true
+    },
+    "propertyOwnerId": {
+      "type": "string",
+      "required": true
+    },
+    "bidOwnerId": {
+      "type": "string",
+      "required": true
+    },
+    "bidOwnerEmail": {
+      "type": "string",
+      "required": true
+    },
+    "bidOwnerName": {
+      "type": "string",
+      "required": true
+    },
+    "bidStatus": {
+      "type": "string",
+      "default": "pending",
+      "required": true
+    },
+    "propertyPrice": {
+      "type": "biginteger"
+    },
+    "propertyName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

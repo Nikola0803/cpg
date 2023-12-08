@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "care_provider_subscriptions",
+  "info": {
+    "singularName": "care-provider-subscription",
+    "pluralName": "care-provider-subscriptions",
+    "displayName": "care provider subscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "details": {
+      "type": "json"
+    },
+    "subId": {
+      "type": "string"
+    }
+  }
+}
